@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+[[mods]]
+modId="ae2emistock"
+version="0.3.0"
+displayName="AE2 EMI Stock"
+description="Wireless ME stock counts and crafting requests from EMI sidebars."
+[[mixins]]
+config="ae2emistock.mixins.json"
+[[dependencies.ae2emistock]]
+modId="ae2"
+type="required"
+versionRange="[26.3.2-alpha]"
+side="BOTH"
+[[dependencies.ae2emistock]]
+modId="emi"
+type="required"
+versionRange="[2,3)"
+side="CLIENT"

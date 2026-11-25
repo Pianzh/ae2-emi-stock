@@ -1,0 +1,1 @@
+{"required":true,"minVersion":"0.8.7","compatibilityLevel":"JAVA_21","package":"local.stock.mixin","client":["StockSpaceMixin","RemoteOrderMouseMixin"],"injectors":{"defaultRequire":1}}
